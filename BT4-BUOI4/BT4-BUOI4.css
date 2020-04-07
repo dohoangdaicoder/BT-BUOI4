@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+.khungcam
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 976px;
+    height: 721px;
+    margin-left: 10%;
+    position: relative;
+    font-family: arial;
+}
+img{
+    width: 976px;
+    height: 721px;
+    margin-left: 10%;
+}
+.khungcam .layer1
+{
+    position: absolute;
+    top: 35%;
+    left: 53%;
+    z-index: 1;
+    /* định dạng thuộc tính cho thẻ <a> */
+    text-decoration: none;
+    font-size: 42px;
+    color: black;
+}
+.khungcam .layer2
+{
+    position: absolute;
+    top: 44%;
+    left: 50%;
+    z-index: 2;
+    /* định dạng thẻ <p> */
+    color: #814A58;
+    font-size: 35px;
+    font-family: times;
+    opacity: 0.7;
+}
+.khungcam .layer3
+{
+    width: 190px;
+    height: 55px;
+    position: absolute;
+    bottom: 35%;
+    left: 51%;
+    z-index: 3;
+    /* định dạng thẻ <a> */
+    text-decoration: none;
+    background-color: #F85B76;
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+    font-size: 30px;
+}
+.layer1:hover
+{
+color: chocolate;
+}
+.layer3:hover
+{
+    color: slategray;
+}

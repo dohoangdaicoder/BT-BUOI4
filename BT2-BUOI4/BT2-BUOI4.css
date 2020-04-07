@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+.article
+{
+    width: 1182px;
+    height: 564px;
+}
+.khoi-tin-chinh
+{
+    width: 975px;
+    height: 493px;
+    background-color: #EED1C9;
+    margin: 10px;
+}
+.khoi-chinh
+{
+    width: 360px;
+    height: 492px;
+    position: relative;
+    float: left;
+}
+.khoi-phu
+{
+    margin-right: 15px;
+    width: 573px;
+    height: 140px;
+    float: right;
+    border-bottom: 1px solid black;
+    padding-bottom: 15px;
+}
+.khoi-phu-2
+{
+    margin-right: 15px;
+    width: 573px;
+    height: 140px;
+    float: right;
+    border-bottom: 1px solid black;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.khoi-phu-3
+{
+    margin-right: 15px;
+    width: 573px;
+    height: 140px;
+    float: right;
+    padding-top: 15px;
+}
+.tinphu
+{
+    width: 320px;
+    float: right;
+    text-decoration: none;
+    margin-bottom: 15px;
+    color: #DBA01A;
+    font-size: 17px;
+    font-weight: bold;
+}
+.tinphu-p
+{
+    width: 320px;
+    height: 53px;
+    float: right;
+    font-size: 14px;
+}
+img
+{
+    width: 360px;
+    height: 492px;
+}
+.img-phu
+{
+    width: 233px;
+    height: 140px;
+    float: left;
+    margin-right: 20px;
+}
+.layer1
+{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+}
+.layer2
+{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    z-index: 2;
+    background-color: #00000085;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #1fa7acc7;
+}
+.khung a:hover
+{
+    color: orangered;
+}
+.tinphu:hover
+{
+    color: black;
+}

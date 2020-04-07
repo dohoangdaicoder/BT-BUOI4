@@ -1,0 +1,82 @@
+article
+{
+    width: 353px;
+    height: 506px;
+}
+.tren
+{
+    width: 353px;
+    height: 203px;
+    position: relative;
+}
+.tren img
+{
+    width: 353px;
+    height: 203px;
+}
+.tren .layer1
+{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+}
+.tren .layer2
+{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 2;
+    color: white;
+    background-color: #0f0f6d;
+    font-size: 20px;
+    padding: 10px;
+}
+.tren .layer3
+{
+    position: absolute;
+    bottom: -10px;
+    left: 17px;
+    z-index: 3;
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    transform: rotate(45deg);
+}
+.giua
+{
+    width: 353px;
+    height: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    position: relative;
+    margin-left: 10px;
+}
+.giua img
+{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.giua .layer2
+{
+    position: absolute;
+    top: 0px;
+    left: 50px;
+    z-index: 2;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: brown;
+}
+.duoi a
+{
+    text-decoration: none;
+    font-size: 25px;
+    color: #191971;
+}
+.duoi p
+{
+    text-align: justify;
+    font-size: 18px;
+}

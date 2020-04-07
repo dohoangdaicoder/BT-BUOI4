@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+.khoi-trai
+{
+    margin: 10px;
+    width: 962px;
+    height: 760px;
+    position: relative;
+    float: left;
+}
+.khoi-trai img
+{
+    width: 550px;
+    height: 717px;
+    margin-right: 10px;
+}
+.khoi-trai .layer1
+{
+    position: absolute;
+    bottom: 13%;
+    left: 3%;
+    z-index: 1;
+    text-decoration: none;
+    font-size: 38px;
+    width: 470px;
+    height: 229px;
+    color: white;
+    font-family: tahoma;
+}
+.ban-tin-phai
+{
+    width: 386px;
+    height: 760px;
+    float: right;
+}
+.ban-tin-phai img
+{
+    width: 386px;
+    height: 237px;
+}
+.ban-tin-phai a
+{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-family: tahoma;
+    padding-top: 10px;
+    display: block;
+}
+
+.ban-tin-phai .tieu-de-1
+{
+    padding-bottom: 14px;
+    font-size: 24px;
+}
+.ban-tin-phai p
+{
+    width: 364px;
+    height: 130px;
+    color: #919191;
+    font-size: 21px;
+    border-bottom: 1px solid grey;
+}
+.ban-tin-phai .tieu-de-2
+{
+    width: 364px;
+    height: 93px;
+    font-size: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid grey;
+}.ban-tin-phai .tieu-de-3
+{
+    width: 364px;
+    height: 93px;
+    font-size: 20px;
+    padding-top: 15px;
+}
+.layer-img
+{
+    width: 550px;
+    height: 717px;
+    position: absolute;
+    background-image: linear-gradient(#ffffff00,black);
+}
